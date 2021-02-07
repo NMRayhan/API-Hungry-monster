@@ -1,0 +1,55 @@
+#foodContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-gap: 10px;
+}
+
+.mealDisplay img {
+    width: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.mealName {
+    font-family: Robot;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    height: 100px;
+    border-radius: 0px 0px 10px 10px;
+    background: #f2f2f2;
+    text-align: center;
+}
+
+.mealDetails {
+    width: 200px;
+}
+
+.foodDetailsContainer {
+    display: none;
+}
+
+.newDiv img {
+    display: block;
+    margin-right: auto;
+    width: 500px;
+    height: 330px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.newDiv h3 {
+    text-align: left;
+    margin-top: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+}
+.newDiv li{
+    list-style-type: none;
+}
+.newDiv li .fas {
+    color: #F06C4E;
+}
